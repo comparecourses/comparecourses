@@ -1,4 +1,4 @@
-from comparecourse import app
+from yourapplication import app
 
 @app.route('/')
 def index():
