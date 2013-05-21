@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Course Finder</title>
+</head>
+<body>
+<form action="" method="post">
+<input type="text" name="query" value="Enter Query">
+<button type="button" name="buttonquery">Search</button>
+</form>
+</body>
