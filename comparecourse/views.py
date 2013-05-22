@@ -4,6 +4,6 @@ from flask import render_template, url_for, request
 def index():
     return render_template('pehlapanna.html')
 
-@app.route('/search',methods = ['POST'])
+@app.route('/search',methods = ['GET'])
 def search():
-	return ('chalo yahan tak to pahunch gaye ab aage bhi chale jaayenge.'+request.form['query'])
+	return ('chalo yahan tak to pahunch gaye ab aage bhi chale jaayenge.'+request.args.get('query', ''))
