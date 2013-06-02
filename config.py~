@@ -1,2 +1,3 @@
-DEBUG = True
+DEBUG = False
 SECRET_KEY = 'nothing_yet'
+DATABASE = 'people_db'
