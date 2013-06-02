@@ -1,0 +1,2 @@
+from comparecourse import app
+app.run(app.config['DEBUG'])
